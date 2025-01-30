@@ -13,6 +13,6 @@ public interface CompetitieSoapService {
 
     List<TeamEntryType> getClubTeams(BigInteger season, String club);
 
-    List<TeamMatchEntryType> getMatches(BigInteger divisionId, BigInteger season, String club)
+    List<TeamMatchEntryType> getMatches(BigInteger divisionId, BigInteger season, String club);
 
 }
